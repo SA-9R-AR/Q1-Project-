@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="file:///C:/Users/valen/Downloads/Add%20a%20heading.png" alt="student logo" class="logo">
+            <ul class="navlinks">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+  <section class="hero">
+        <img src="" alt="Profile Picture" class="pfp">
+        <h1>Hey, I'm Anikka!</h1>
+        <p>Aspiring Graphic Designer</p>
+    </section>
+
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p> I'm very passionate with arts, especially with films and graphic designing.</p>
+           </section>
+
+
+    <section id="works">
+        <h1>My Works</h1>
+        <div class="works-gallery">
+
+
+            <div class="work-item">
+                <img src="file:///C:/Users/valen/Downloads/LUNGING%20THE%20IRON.png"
+            
+
+
+             class="work-item">
+                <ul>
+                    <li> Graphic Design </li>
+                    <li> Posters </li>
+                    <li> Website </li>
+                    <li> <a href="https://www.figma.com/proto/L3B44F2AuvgzLuAprYxzuQ/SA_ICT8R_Q3SW2_Rosales_Anikka?node-id=4-6&p=f&t=tObyL2lYcqIeDMMb-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A6">View</a></li>
+                </ul>
+            </div>
+
+
+            <div class="work-item">
+                <img src=
+            </div>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe">
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="janedoe@gmail.com">
+                <br>
+
+
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Facebook</label>
+
+
+                    <input type="radio" id="r2" name="r-selection" value="2" required>
+                    <label for="r2">Instagram</label>
+
+
+                    <input type="radio" id="r3" name="r-selection" value="3" required>
+                    <label for="r3">Discord</label>
+                </div>
+
+
+                <br>
+
+
+                <label>Interested in:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ch1" name="interests" value="checkbox1">
+                    <label for="ch1">Web Design</label>
+
+
+                    <input type="checkbox" id="ch2" name="interests" value="checkbox2">
+                    <label for="ch2">Graphics Design</label>
+
+
+                    <input type="checkbox" id="ch3" name="interests" value="checkbox3">
+                    <label for="ch3">Robotics</label>
+                </div>
+
+
+                <br>
+
+
+                <label for="selection">Rate My Portfolio</label>
+                 <select id="selection" name="selection" required>
+                    <option value="">--Select Rating--</option>
+                    <option value="1">⭐️</option>
+                    <option value="2">⭐️⭐️</option>
+                    <option value="3">⭐️⭐️⭐️</option>
+                    <option value="4">⭐️⭐️⭐️⭐️</option>
+                    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                </select>
+
+
+                <br>
+
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="write your feedback here..." required></textarea>
+
+
+                <br>
+
+
+                <button type="submit">Submit</button>
+            </form>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Anikka Rosales, 9-Ruby. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
